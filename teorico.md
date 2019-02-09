@@ -7,11 +7,29 @@
 
 1.1) Dê 2 exemplos de quando os operadores produziriam resultados diferentes
 
-```js
-// Resposta
-```
+ var numero = 1; // Variavel responsavel por realizar as condições
+ // Primeiro exemplo utilizando o operador (==)
+ if (numero == '1') 
+ {
+    alert("Igual");
+ }
+ else
+ {
+    alert("Diferente");
+ }
+ // Primeiro exemplo utilizando o operador (===)
+ if (numero === '1') 
+{
+	alert("Igual");
+}
+else
+{
+    alert("Diferente");
+}
 
----
+
+
+
 
 2\) Recursos/Práticas:
 
