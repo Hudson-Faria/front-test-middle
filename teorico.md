@@ -35,7 +35,7 @@ alert("123 milhas" == new String("123 milhas"));			<br />
 // Segundo exemplo utilizando o operador (===)				<br />
 alert("123 milhas" === new String("123 milhas"));
 
-
+Nesse segundo exemplo com o operador == retornará true e com o operador === retornará false
 
 
 
