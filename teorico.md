@@ -2,30 +2,30 @@
 
 1\) Qual a diferença do operador `==` para o operador `===` em JavaScript?
 
-== Realiza comparação apenas de valor    <br />
+== Realiza comparação apenas de valor    				<br />
 === Realiza comparação de valor e tipo
 
 1.1) Dê 2 exemplos de quando os operadores produziriam resultados diferentes
 
- var numero = 1; // Variavel responsavel por realizar as condições
- // Primeiro exemplo utilizando o operador (==)
- if (numero == '1') 
- {
-    alert("Igual");
- }
- else
- {
-    alert("Diferente");
- }
- // Primeiro exemplo utilizando o operador (===)
- if (numero === '1') 
-{
-	alert("Igual");
-}
-else
-{
-    alert("Diferente");
-}
+ var numero = 1; // Variavel responsavel por realizar as condições 	<br />
+ // Primeiro exemplo utilizando o operador (==) 			<br />
+ if (numero == '1') 							<br />
+ { <br />
+    alert("Igual");		 					<br />
+ } 									<br />
+ else 									<br />
+ { <br />
+    alert("Diferente"); 						<br /> 
+ } <br />
+ // Primeiro exemplo utilizando o operador (===) 			<br />
+ if (numero === '1') 							<br />
+{ <br />
+	alert("Igual"); 						<br />
+} 									<br />
+else 									<br /> 
+{ 									<br />
+    alert("Diferente"); 						<br />
+} 									<br />
 
 
 
