@@ -2,7 +2,7 @@
 
 1\) Qual a diferença do operador `==` para o operador `===` em JavaScript?
 
-== Realiza comparação apenas de valor
+== Realiza comparação apenas de valor    <br />
 === Realiza comparação de valor e tipo
 
 1.1) Dê 2 exemplos de quando os operadores produziriam resultados diferentes
