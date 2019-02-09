@@ -2,7 +2,7 @@
 
 1\) Qual a diferença do operador `==` para o operador `===` em JavaScript?
 
-[Resposta]
+[Resposta
 
 1.1) Dê 2 exemplos de quando os operadores produziriam resultados diferentes
 
