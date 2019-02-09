@@ -27,7 +27,7 @@ else 									<br />
     alert("Diferente"); 						<br />
 } 									<br />
 
-Nesse primeiro exemplo com o operador == o resultado será exibido como igual e no utilizando com o operador === o resultado será exibido como diferente.
+Nesse primeiro exemplo com o operador == o resultado será exibido como igual e utilizando o operador === o resultado será exibido como diferente.
 
 
 
