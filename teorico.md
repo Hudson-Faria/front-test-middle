@@ -86,9 +86,9 @@ No código seria o uso de um recurso do css chamado @medias, que nós permite es
 
 3.4) Quais metodologias CSS você costuma seguir? Explique um pouco delas.
 
-[Resposta]
+O uso de arquivos separados de estilos, boa modulariação de classes uso de pré-processadores e alguns frameworks. 
 
-[Explicacão]
+Arquivos separdos nós permite uma maior legibilidade e uma mais fácil manutenção, modulariando classes em arquivos separados para um arquivo ou conjuntos de tags especificas e utilizando frameworks como Less e Sass nós permite criar códigos css dinâmicos e com design patterns melhores escritos. 
 
 ---
 
