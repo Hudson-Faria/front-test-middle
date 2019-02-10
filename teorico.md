@@ -37,18 +37,13 @@ alert("123 milhas" === new String("123 milhas"));
 
 Nesse segundo exemplo com o operador == retornará true e com o operador === retornará false
 
-
-
-
-
-
 2\) Recursos/Práticas:
 
 2.1) Qual recurso do javascript é mais recomendado para tratar processamentos asíncronos? Justifique.
 
-[Resposta]
+Async
 
-[Justificativa]
+O módulo async é uma lib usada para gerenciar o fluxo assíncrono de operações em Javascript. Com este módulo, podemos controlar a ordem de execução das operações. A proposta das funções async/await é de simplificar o uso de forma síncrona das Promises e executar alguns procedimentos em um grupo de Promises. Assim como Promises são similares a callbacks estruturados, funções async/await são similares à junção de generators com Promises.
 
 2.2) Quais os recursos mais recomendados para incluir ícones em um site? Justifique.
 
