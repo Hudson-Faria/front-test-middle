@@ -74,7 +74,7 @@ Em determinados momentos não permite uma expansão do elemento isolado, fazendo
 
 3.1) Por quê é importante não fazer seletores por tags html?
 
-[Resposta]
+Pois não permite uma estilização de um conjunto maior das tags especificas. Por exemplo estilizando uma tag p do html todos as outras tag p criadas terão o mesmo estilo. Criando classes ou identificadores permite um estilo individual para cada tag.
 
 3.2) Para criar um site que desse a opção do usuário escolher um tema, qual tecnogia/recurso de css você utilizaria?
 
