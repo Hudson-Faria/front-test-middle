@@ -54,7 +54,7 @@ Um favicon (abreviação de ícone favorito), também conhecido como ícone de a
 
 2.3) Qual recurso dos browsers é usado para carregar dados/conteúdos dinâmicos sem recarregar a página? Existem alternativas?
 
-[Resposta]
+Ajax. Existe outra possibilidade utilizando iframe.
 
 2.4) Qual recurso angular pode ser usado para aumentar a performance de campos que realizam algum processamento ao alterar o texto?
 
