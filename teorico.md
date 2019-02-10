@@ -152,9 +152,8 @@ async function doSomethingAsync(options) {
 }
 ```
 
-[Resposta]
+Implementado como um método assincrono. O recomendado no uso do assincronimos são em operações que tem o tempo de execução no minimo em 50 milisegundos, menos do que esse isso não é compensatorio.Na verdade em determinadas ações o melhor é não usar, não é utilizado para tornar algo mais rápido ou melhorar performance, o ganho de métodos assíncronos são execuções em paralelo podendo atender mais requisições. 
 
----
 
 5\) Quais as vantagens de usar ES modules em vez de usar commonjs?
 
