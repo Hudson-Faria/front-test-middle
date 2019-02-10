@@ -47,9 +47,10 @@ O módulo async é uma lib usada para gerenciar o fluxo assíncrono de operaçõ
 
 2.2) Quais os recursos mais recomendados para incluir ícones em um site? Justifique.
 
-[Resposta]
+Favicon
 
-[Justificativa]
+Um favicon (abreviação de ícone favorito), também conhecido como ícone de atalho, ícone de site, ícone de guia, ícone de URL ou ícone de favoritos, é um ou mais pequenos ícones associados a um site ou uma página web específica.
+
 
 2.3) Qual recurso dos browsers é usado para carregar dados/conteúdos dinâmicos sem recarregar a página? Existem alternativas?
 
