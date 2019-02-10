@@ -136,9 +136,10 @@ somePromise()
     })
 ```
 
-[Resposta]
+ok now!
+A exceção lançada em throw não será lançada pois o segundo .then() executara sem erros.
 
-[Justificativa]
+
 
 4.3\) Quais as vantagens/desvantagens da segunda função em relação a primeira?
 ```js
