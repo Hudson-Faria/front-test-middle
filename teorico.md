@@ -161,4 +161,4 @@ Os módulos oferecem uma maneira melhor de organizar variaveis e funções. Com 
 
 6\) Cite as principais diferenças entre um componente e uma diretiva no AngularJS.
 
-[Resposta]
+Diretivas são usadas como extensão do HTML (como tags ou atributos) para manipulação do DOM, contém alguns problemas com data-binding e escopos. O componente vem como as proposta para solução destes problemas das diretivas, isolando escopos, lidando melhor com o data-binding, manipulação mais avançada do DOM, e também para começar adaptar o código mais próximo dos moldes do Angular.
