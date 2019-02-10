@@ -119,9 +119,9 @@ somePromise()
 
 ```
 
-[Resposta]
+3 Segundos.
 
-[Justificativa]
+doSomething() executara depois de 1 segundo, após doSomethingElse() executara depois de 2 segundos, somePromise() executara essa que resultará em 3 segundos.  Uma observação, a função Promise.race recebe uma lista de promises e assim que uma delas for resolvida, receberemos imediatamente seu resultado na próxima chamada encadeada à then. Se esse recurso estivesse implementado o resultado seria apenas 1 segundo.   
 
 4.2) O que o código a seguir imprime? (Levando em consideração que `somePromise()` vai retornar uma Promise resolvida)
 ```js
