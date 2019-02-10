@@ -82,7 +82,7 @@ Gosto de utilizar o Wordpress (CMS para conteúdo) e o Framework Bootrstrap. Nes
 
 3.3) Quais práticas/recursos devem ser usados para criar sites responsivo?
 
-[Resposta]
+No código seria o uso de um recurso do css chamado @medias, que nós permite estilizar para direfentes tamanhos de telas. Alguns frameworks desenvolvidos usados no mercado já implementam esses recuros, facilitando esse trabalho. Sendo um dos mais utilizados o bootstrap, particularmente oque eu mais gosto de usar. No desenvovimento seria mobile-first que é o desenvolvimento inicial do layout primeiramente para dispositivos mobiles e depois adaptando para outros dispositivos, favorecer sempre a velocidade do site, eliminar oque não é essencial, criar botões que convertam e sempre fazer testes de usabilidade. 
 
 3.4) Quais metodologias CSS você costuma seguir? Explique um pouco delas.
 
