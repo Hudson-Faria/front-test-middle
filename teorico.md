@@ -78,7 +78,7 @@ Pois não permite uma estilização de um conjunto maior das tags especificas. P
 
 3.2) Para criar um site que desse a opção do usuário escolher um tema, qual tecnogia/recurso de css você utilizaria?
 
-[Resposta]
+Gosto de utilizar o Wordpress (CMS para conteúdo) e o Framework Bootrstrap. Nesse caso eu utilizaria algum template do bootstrap ou do Wordpress. Uma observação é que alguns templates do wordpress implementam o bootstrap. 
 
 3.3) Quais práticas/recursos devem ser usados para criar sites responsivo?
 
