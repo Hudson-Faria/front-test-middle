@@ -58,7 +58,7 @@ Ajax. Existe outra possibilidade utilizando iframe.
 
 2.4) Qual recurso angular pode ser usado para aumentar a performance de campos que realizam algum processamento ao alterar o texto?
 
-[Resposta]
+Watchers.
 
 2.5) Por quê é importante diminuir a quantidade de watchers do angular em uma página e como fazer?
 
