@@ -66,7 +66,7 @@ Para evitar uma quantidade de loops e requisiçõe ajax do javascript evitando e
 
 2.6) Por quê é importante evitar escopos isolados em diretivas do angular e como fazer?
 
-[Resposta]
+Em determinados momentos não permite uma expansão do elemento isolado, fazendo com que a mudança interfira em todo conteúdo. Temos que pensar em algo como uma propriedade. Uma solução seria o templateUrl. Quando as diretivas começam a se tornar mais complexas, o template deixa de oferecer um organização sustentável, então outra solução seria mover uma página só para ele. 
 
 ---
 
