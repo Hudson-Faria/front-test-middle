@@ -62,7 +62,7 @@ Watchers.
 
 2.5) Por quê é importante diminuir a quantidade de watchers do angular em uma página e como fazer?
 
-[Resposta]
+Para evitar uma quantidade de loops e requisiçõe ajax do javascript evitando executar uma lista de $watches. Oque poderá acarretar em uma maior lentidão da página. Utilizando a anotação :: para permitir expressões constantes e evitar o disparo de watchers desnecessários. 
 
 2.6) Por quê é importante evitar escopos isolados em diretivas do angular e como fazer?
 
