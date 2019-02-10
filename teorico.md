@@ -157,9 +157,7 @@ Implementado como um método assincrono. O recomendado no uso do assincronimos s
 
 5\) Quais as vantagens de usar ES modules em vez de usar commonjs?
 
-[Resposta]
-
----
+Os módulos oferecem uma maneira melhor de organizar variaveis e funções. Com os módulos, você agrupa as variáveis e funções podendo ser incluidas juntas, fornecendo também uma evolução no controle de dependencias com o parser de módulos totalmente separado dos scripts, sempre carregados assincronamente e Exports nomeados.
 
 6\) Cite as principais diferenças entre um componente e uma diretiva no AngularJS.
 
