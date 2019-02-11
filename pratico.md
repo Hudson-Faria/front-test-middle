@@ -95,36 +95,36 @@ resolve(_transactions)					<br />
 ```
 
 
-Faltou substituir o atributo src pela diretiva ng-src. <br/>
+Faltou substituir o atributo src pela diretiva ng-src. 
 
-```html			      <br />
-<img ng-src="{{item.image}}"> <br />
+```html			      
+<img ng-src="{{item.image}}"> 
 ```
 
 
 3.2)
 ```html
 ...
-<body ng-controller="PageCtrl"> 	<br />
-    <h1>{{page.mainTitle}}</h1>		<br />
+<body ng-controller="PageCtrl"> 	
+    <h1>{{page.mainTitle}}</h1>		
     ...
-</body>					<br />
+</body>					
 ```
 
-No escopo inserido no html concatenamos sem ponto.		<br />
+No escopo inserido no html concatenamos sem ponto.	
 
 ```html
-<body ng-controller="PageCtrl">			<br />
-    <h1>{{page + " " + mainTitle}}</h1>		<br />
-    ...						<br />
-</body>						<br />	
+<body ng-controller="PageCtrl">			
+    <h1>{{page + " " + mainTitle}}</h1>		
+    ...						
+</body>						
 
-<script>					<br />
-app.controller('PageCtrl', function($scope) {	<br />
-    $scope.page = "Body";			<br />
-    $scope.mainTitle = "h1";			<br />
-});						<br />
-</script>					<br />
+<script>					
+app.controller('PageCtrl', function($scope) {	
+    $scope.page = "Body";			
+    $scope.mainTitle = "h1";			
+});						
+</script>					
 
 
 3.3)
