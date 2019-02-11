@@ -29,7 +29,7 @@ else 									<br />
 
 Nesse primeiro exemplo com o operador == o resultado será exibido como igual e utilizando o operador === o resultado será exibido como diferente.
 
-// Segundo exemplo utilizando o operador (==)
+// Segundo exemplo utilizando o operador (==)				<br />
 alert("123 milhas" == new String("123 milhas"));			<br />
 
 // Segundo exemplo utilizando o operador (===)				<br />
