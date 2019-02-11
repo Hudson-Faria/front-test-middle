@@ -3,20 +3,20 @@
 1\) Adicione o método `.last()` na classe `Array`, que retornará o último item do array, ou `undefined` caso o array estiver vazio
 
 // Resposta
-$key_array = false;
-const array1 = [1,2,3,4,5,6,7,8,9]
-if(array1.last() && !array1.length == 0)
-{
-	$key_array = true;
-}
-else if(array1.last() && array1.length == 0)
-{
-	$key_array = "undefined";
-}
-else
-{
-	$key_array = "Array Vazio";
-}
+$key_array = false;				<br />
+const array1 = [1,2,3,4,5,6,7,8,9]     		<br />
+if(array1.last() && !array1.length == 0)	<br />
+{						<br />
+	$key_array = true;			<br />
+}						<br />
+else if(array1.last() && array1.length == 0)	<br />
+{						<br />
+	$key_array = "undefined";		<br />
+}						<br />
+else						<br />
+{						<br />
+	$key_array = "Array Vazio";		<br />
+}						<br />
 
 
 // Teste/Exemplos
@@ -63,26 +63,26 @@ function getTransactions() {
 
 ```js
 // Resposta
-async function getTransactions() {
-     $http.get(BASE_URL + '/api/transacoes')
-	.then(response => {
-	if (!response.data.error) {
-	const transactions = response.data
-     var _transactions = []
-	for (var i in transactions) {
-     if (transactions[i].realizada)  {
-     _transactions.push({
-     id: transactions[i].id,
-     value: transactions[i].valor,
-     type: transactions[i].valor < 0 ? 'transference' : 'deposit',
-     })
-   }
-  }	
-resolve(_transactions)
-} else {
-	reject(response.data.error)
- }
-}
+async function getTransactions() { 			<br />
+     $http.get(BASE_URL + '/api/transacoes') 		<br />
+	.then(response => {				<br />
+	if (!response.data.error) {			<br />
+	const transactions = response.data		<br />
+     var _transactions = []				<br />
+	for (var i in transactions) {			<br />
+     if (transactions[i].realizada)  {			<br />
+     _transactions.push({				<br />
+     id: transactions[i].id,				<br />
+     value: transactions[i].valor,			<br />
+     type: transactions[i].valor < 0 ? 'transference' : 'deposit', <br />
+     })									<br />
+   }							<br />	
+  }							<br />
+resolve(_transactions)					<br />
+} else {						<br />
+	reject(response.data.error)			<br />
+ }							<br />
+}							<br />
 
 
 ---
@@ -95,36 +95,36 @@ resolve(_transactions)
 ```
 
 
-Faltou substituir o atributo src pela diretiva ng-src. 
+Faltou substituir o atributo src pela diretiva ng-src. <br/>
 
-```html
-<img ng-src="{{item.image}}">
+```html			      <br />
+<img ng-src="{{item.image}}"> <br />
 ```
 
 
 3.2)
 ```html
 ...
-<body ng-controller="PageCtrl">
-    <h1>{{page.mainTitle}}</h1>
+<body ng-controller="PageCtrl"> 	<br />
+    <h1>{{page.mainTitle}}</h1>		<br />
     ...
-</body>
+</body>					<br />
 ```
 
-No escopo inserido no html concatenamos sem ponto.
+No escopo inserido no html concatenamos sem ponto.		<br />
 
 ```html
-<body ng-controller="PageCtrl">
-    <h1>{{page + " " + mainTitle}}</h1>
-    ...
-</body>
+<body ng-controller="PageCtrl">			<br />
+    <h1>{{page + " " + mainTitle}}</h1>		<br />
+    ...						<br />
+</body>						<br />	
 
-<script>
-app.controller('PageCtrl', function($scope) {
-    $scope.page = "Body";
-    $scope.mainTitle = "h1";
-});
-</script>
+<script>					<br />
+app.controller('PageCtrl', function($scope) {	<br />
+    $scope.page = "Body";			<br />
+    $scope.mainTitle = "h1";			<br />
+});						<br />
+</script>					<br />
 
 
 3.3)
