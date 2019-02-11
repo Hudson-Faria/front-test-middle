@@ -63,26 +63,26 @@ function getTransactions() {
 
 ```js
 // Resposta
-async function getTransactions() { 			<br />
-     $http.get(BASE_URL + '/api/transacoes') 		<br />
-	.then(response => {				<br />
-	if (!response.data.error) {			<br />
-	const transactions = response.data		<br />
-     var _transactions = []				<br />
-	for (var i in transactions) {			<br />
-     if (transactions[i].realizada)  {			<br />
-     _transactions.push({				<br />
-     id: transactions[i].id,				<br />
-     value: transactions[i].valor,			<br />
-     type: transactions[i].valor < 0 ? 'transference' : 'deposit', <br />
-     })									<br />
-   }							<br />	
-  }							<br />
-resolve(_transactions)					<br />
-} else {						<br />
-	reject(response.data.error)			<br />
- }							<br />
-}							<br />
+async function getTransactions() { 			
+     $http.get(BASE_URL + '/api/transacoes') 		
+	.then(response => {			
+	if (!response.data.error) {			
+	const transactions = response.data		
+     var _transactions = []				
+	for (var i in transactions) {			
+     if (transactions[i].realizada)  {			
+     _transactions.push({				
+     id: transactions[i].id,				
+     value: transactions[i].valor,			
+     type: transactions[i].valor < 0 ? 'transference' : 'deposit', 
+     })									
+   }							
+  }							
+resolve(_transactions)					
+} else {						
+	reject(response.data.error)			
+ }							
+}							
 
 
 ---
