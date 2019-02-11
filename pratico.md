@@ -2,8 +2,21 @@
 
 1\) Adicione o método `.last()` na classe `Array`, que retornará o último item do array, ou `undefined` caso o array estiver vazio
 
-```js
 // Resposta
+$key_array = false;
+const array1 = [1,2,3,4,5,6,7,8,9]
+if(array1.last() && !array1.length == 0)
+{
+	$key_array = true;
+}
+else if(array1.last() && array1.length == 0)
+{
+	$key_array = "undefined";
+}
+else
+{
+	$key_array = "Array Vazio";
+}
 
 
 // Teste/Exemplos
@@ -50,7 +63,27 @@ function getTransactions() {
 
 ```js
 // Resposta
-```
+async function getTransactions() {
+     $http.get(BASE_URL + '/api/transacoes')
+	.then(response => {
+	if (!response.data.error) {
+	const transactions = response.data
+     var _transactions = []
+	for (var i in transactions) {
+     if (transactions[i].realizada)  {
+     _transactions.push({
+     id: transactions[i].id,
+     value: transactions[i].valor,
+     type: transactions[i].valor < 0 ? 'transference' : 'deposit',
+     })
+   }
+  }	
+resolve(_transactions)
+} else {
+	reject(response.data.error)
+ }
+}
+
 
 ---
 
@@ -61,11 +94,13 @@ function getTransactions() {
 <img src="{{item.img}}">
 ```
 
-[Problemas]
+
+Faltou substituir o atributo src pela diretiva ng-src. 
 
 ```html
-<!-- correção -->
+<img ng-src="{{item.image}}">
 ```
+
 
 3.2)
 ```html
@@ -76,11 +111,21 @@ function getTransactions() {
 </body>
 ```
 
-[Problemas]
+No escopo inserido no html concatenamos sem ponto.
 
 ```html
-<!-- correção -->
-```
+<body ng-controller="PageCtrl">
+    <h1>{{page + " " + mainTitle}}</h1>
+    ...
+</body>
+
+<script>
+app.controller('PageCtrl', function($scope) {
+    $scope.page = "Body";
+    $scope.mainTitle = "h1";
+});
+</script>
+
 
 3.3)
 ```html
@@ -96,12 +141,20 @@ function getTransactions() {
     ...
 </body>
 ```
-
-[Problemas]
+&& Não necessário.
 
 ```html
-<!-- correção -->
-```
+<body ng-controller="NewsletterCtrl">
+    <div class="box">
+        <p>Cadastre-se na nossa news semanal!</p>
+        <input ng-model="email" type="email">
+        <button ng-click="registerNewsletter(email)">
+            Cadastrar
+        </button>
+    </div>
+    ...
+</body>
+
 
 3.4)
 ```js
@@ -111,11 +164,13 @@ function HomeCtrl($scope) {
 
 ```
 
-[Problemas]
+Não precisar injetar o $escopo em cada teste, mas simplesmente faz as asserções na instância do controlador.
 
 ```js
-//correção
-```
+function HomeCtrl() {
+    this.foo = 'bar'
+}
+
 
 ---
 
